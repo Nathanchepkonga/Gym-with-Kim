@@ -19,3 +19,5 @@ Choose workout type (Strength or Cardio).
 1. Clone the repository to your local machine:
    ```bash
 https://github.com/Nathanchepkonga/Gym-with-Kim.git
+## View in site
+https://gymwithkim.netlify.app
