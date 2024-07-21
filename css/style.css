@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+  background-color: white; /* Changed background color to white */
+  margin: 10px;
+  text-align: center;
+}
+
+.line {
+  width: 100%;
+  max-width: 800px;
+  height: 8px;
+  margin: 0 0 10px 0;
+  position: relative;
+  display: inline-block;
+  background-color: orange; /* Changed background color to orange */
+}
+
+h2 {
+  font-family: "droid serif", sans-serif;
+  color: orange; /* Changed text color to orange */
+  font-size: 5em;
+}
+
+h1 {
+  font-family: "Abril Fatface", sans-serif;
+  font-weight: normal;
+  color: lightorange; /* Changed text color to light orange */
+  font-size: 10em;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.panel {
+  scroll-snap-align: start;
+  height: 100vh;
+  background-color: lightorange; /* Added background color for panels */
+}
+
+.container {
+  max-height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
